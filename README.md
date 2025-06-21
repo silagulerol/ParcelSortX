@@ -29,15 +29,19 @@ ParcelSortX/
 ├── Parcel.java # Data model for parcels
 ├── Stack.java # Stack implementation for parcel processing
 
-How It Works:
-Parcels are first loaded into the system via ConfigLoader.
-Sorting begins using a stack-based mechanism.
-Processed parcels are routed via a circular queue.
-Destinations are assigned using a hash table for O(1) lookup.
-For storage and quick retrieval, parcels are inserted into an AVL tree.
-Final simulation stats and transitions are printed in the console.
+----
 
-Concepts Used:
-Data Structures: Stack, Queue, Linked List, AVL Tree, Hash Table
-File I/O: Configuration loading from text file
-Object-Oriented Design: Modular and extensible Java classes
+## How It Works:
+-Parcels are first loaded into the system via ConfigLoader.
+-Sorting begins using a stack-based mechanism.
+-Processed parcels are routed via a circular queue.
+-Destinations are assigned using a hash table for O(1) lookup.
+-For storage and quick retrieval, parcels are inserted into an AVL tree.
+-Final simulation stats and transitions are printed in the console.
+
+----
+
+## Concepts Used:
+-Data Structures: Stack, Queue, Linked List, AVL Tree, Hash Table
+-File I/O: Configuration loading from text file
+-Object-Oriented Design: Modular and extensible Java classes
