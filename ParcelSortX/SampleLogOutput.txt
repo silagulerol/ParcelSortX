@@ -1,0 +1,2536 @@
+
+[Tick 1]
+New parcels: 1 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 1 to Antalya, 
+Visit all cities in sorted order alphabetically.Antalya, 
+Istanbul activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 2]
+New parcels: 2 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 2 to Bursa, 
+Visit all cities in sorted order alphabetically.Antalya, Bursa, 
+Istanbul activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 3]
+New parcels: 3 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 3 to Izmir, 
+Visit all cities in sorted order alphabetically.Antalya, Bursa, Izmir, 
+Istanbul activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 4]
+New parcels: 4 to Istanbul (Priority 1), 5 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 4 to Istanbul, 5 to Bursa, 
+Visit all cities in sorted order alphabetically.Antalya, Bursa, Istanbul, Izmir, size0
+
+Dispatcehd: 4 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 5]
+New parcels: 6 to Bursa (Priority 2), 7 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 6 to Bursa, 7 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Istanbul activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 6]
+New parcels: 8 to Izmir (Priority 1), 9 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 8 to Izmir, 9 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size0
+
+Dispatcehd: 7 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 7]
+New parcels: 10 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 10 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Ankara activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 8]
+New parcels: 11 to Ankara (Priority 2), 12 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 11 to Ankara, 12 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size0
+
+Dispatcehd: 11 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 9]
+New parcels: 13 to Izmir (Priority 1), 14 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 13 to Izmir, 14 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Ankara activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 10]
+New parcels: 15 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 15 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Ankara activeTerminal is not in the tree so there is no dipsatch or misrouted  parcel
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 11]
+New parcels: 16 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 16 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size3
+
+Dispatcehd: 3 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 12]
+New parcels: 17 to Ankara (Priority 1), 18 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 17 to Ankara, 18 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size2
+
+Dispatcehd: 16 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 13]
+New parcels: 19 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 19 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 14]
+New parcels: 20 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 20 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 15]
+New parcels: 21 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 21 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 16]
+New parcels: 22 to Bursa (Priority 1), 23 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 22 to Bursa, 23 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 2 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 17]
+New parcels: 24 to Antalya (Priority 1), 25 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 24 to Antalya, 25 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size5
+
+Dispatcehd: 22 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 18]
+New parcels: 26 to Ankara (Priority 1), 27 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 26 to Ankara, 27 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 19]
+New parcels: 28 to Istanbul (Priority 2), 29 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 28 to Istanbul, 29 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 20]
+New parcels: 30 to Istanbul (Priority 2), 31 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 30 to Istanbul, 31 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 21]
+New parcels: 32 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 32 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 1 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 22]
+New parcels: 33 to Ankara (Priority 1), 34 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 33 to Ankara, 34 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size5
+
+Dispatcehd: 29 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 23]
+New parcels: 35 to Ankara (Priority 1), 36 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 35 to Ankara, 36 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 24]
+New parcels: 37 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 37 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 25]
+New parcels: 38 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 38 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 1
+
+[Tick 26]
+New parcels: 39 to Izmir (Priority 2), 40 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 39 to Izmir, 40 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size4
+
+Dispatcehd: 12 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 1
+
+[Tick 27]
+New parcels: 41 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 41 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size3
+
+Dispatcehd: 30 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 28]
+New parcels: 42 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 42 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 29]
+New parcels: 43 to Antalya (Priority 1), 44 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 43 to Antalya, 44 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 30]
+New parcels: 45 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 45 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 31]
+New parcels: 46 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 46 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size10
+
+Dispatcehd: 17 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 32]
+New parcels: 47 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 47 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size9
+
+Dispatcehd: 45 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 33]
+New parcels: 48 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 48 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 34]
+New parcels: 49 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 49 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 35]
+New parcels: 50 to Izmir (Priority 1), 51 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 50 to Izmir, 51 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 36]
+New parcels: 52 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 52 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size7
+
+Dispatcehd: 39 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 37]
+New parcels: 53 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 53 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 50 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 38]
+New parcels: 54 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 54 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 39]
+New parcels: 55 to Istanbul (Priority 2), 56 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 55 to Istanbul, 56 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 40]
+New parcels: 57 to Antalya (Priority 2), 58 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 57 to Antalya, 58 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 41]
+New parcels: 59 to Izmir (Priority 1), 60 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 59 to Izmir, 60 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 32 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 42]
+New parcels: 61 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 61 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 60 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 43]
+New parcels: 62 to Ankara (Priority 2), 63 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 62 to Ankara, 63 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 61 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 44]
+New parcels: 64 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 64 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 45]
+New parcels: 65 to Ankara (Priority 2), 66 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 65 to Ankara, 66 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 46]
+New parcels: 67 to Izmir (Priority 1), 68 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 67 to Izmir, 68 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size9
+
+Returned: 43 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+Stack Size: 1
+
+[Tick 47]
+New parcels: 69 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 69 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size8
+
+Dispatcehd: 68 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 1
+
+[Tick 48]
+New parcels: 70 to Istanbul (Priority 2), 71 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 70 to Istanbul, 71 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size8
+
+Dispatcehd: 71 from AVL to Antalya -> Success
+Sorted again: 43 to Antalya to AVL
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 49]
+New parcels: 72 to Istanbul (Priority 1), 73 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 72 to Istanbul, 73 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size8
+
+Dispatcehd: 43 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 50]
+New parcels: 74 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 74 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 51]
+New parcels: 75 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 75 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size7
+
+Dispatcehd: 48 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 52]
+New parcels: 76 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 76 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 72 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 53]
+New parcels: 77 to Istanbul (Priority 1), 78 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 77 to Istanbul, 78 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 77 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 54]
+New parcels: 79 to Antalya (Priority 2), 80 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 79 to Antalya, 80 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size6
+
+Dispatcehd: 80 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 55]
+New parcels: 81 to Izmir (Priority 2), 82 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 81 to Izmir, 82 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 56]
+New parcels: 83 to Istanbul (Priority 1), 84 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 83 to Istanbul, 84 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 62 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 57]
+New parcels: 85 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 85 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 74 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 58]
+New parcels: 86 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 86 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size13
+
+Returned: 85 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+Stack Size: 1
+
+[Tick 59]
+New parcels: 87 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 87 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size13
+
+Dispatcehd: 87 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 1
+
+[Tick 60]
+New parcels: 88 to Izmir (Priority 1), 89 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 88 to Izmir, 89 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Sorted again: 85 to Ankara to AVL
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 61]
+New parcels: 90 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 90 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size11
+
+Dispatcehd: 59 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 62]
+New parcels: 91 to Bursa (Priority 2), 92 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 91 to Bursa, 92 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size10
+
+Dispatcehd: 88 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 63]
+New parcels: 93 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 93 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 64]
+New parcels: 94 to Istanbul (Priority 1), 95 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 94 to Istanbul, 95 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 65]
+New parcels: 96 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 96 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 1
+
+[Tick 66]
+New parcels: 97 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 97 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Dispatcehd: 75 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 67]
+New parcels: 98 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 98 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Dispatcehd: 96 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 68]
+New parcels: 99 to Antalya (Priority 2), 100 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 99 to Antalya, 100 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 98 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 69]
+New parcels: 101 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 101 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 70]
+New parcels: 102 to Izmir (Priority 2), 103 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 102 to Izmir, 103 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 71]
+New parcels: 104 to Istanbul (Priority 1), 105 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 104 to Istanbul, 105 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 79 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 72]
+New parcels: 106 to Antalya (Priority 2), 107 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 106 to Antalya, 107 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Returned: 101 misrouted -> Pushed to ReturnStack
+Sorted again: 101 to Antalya to AVL
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 73]
+New parcels: 108 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 108 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 106 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 74]
+New parcels: 109 to Izmir (Priority 1), 110 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 109 to Izmir, 110 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Returned: 108 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+Stack Size: 1
+
+[Tick 75]
+New parcels: 111 to Ankara (Priority 2), 112 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 111 to Ankara, 112 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 112 from AVL to Antalya -> Success
+Sorted again: 108 to Antalya to AVL
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 76]
+New parcels: 113 to Antalya (Priority 2), 114 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 113 to Antalya, 114 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size10
+
+Dispatcehd: 83 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 77]
+New parcels: 115 to Bursa (Priority 2), 116 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 115 to Bursa, 116 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size9
+
+Dispatcehd: 104 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 78]
+New parcels: 117 to Antalya (Priority 1), 118 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 117 to Antalya, 118 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 79]
+New parcels: 119 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 119 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 80]
+New parcels: 120 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 120 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size9
+
+Dispatcehd: 120 from AVL to Istanbul -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 81]
+New parcels: 121 to Bursa (Priority 1), 122 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 121 to Bursa, 122 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size17
+
+Dispatcehd: 85 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 82]
+New parcels: 123 to Istanbul (Priority 2), 124 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 123 to Istanbul, 124 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size16
+
+Dispatcehd: 116 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 83]
+New parcels: 125 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 125 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 84]
+New parcels: 126 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 126 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 85]
+New parcels: 127 to Antalya (Priority 2), 128 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 127 to Antalya, 128 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 86]
+New parcels: 129 to Bursa (Priority 2), 130 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 129 to Bursa, 130 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size12
+
+Dispatcehd: 102 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 87]
+New parcels: 131 to Ankara (Priority 2), 132 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 131 to Ankara, 132 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size11
+
+Dispatcehd: 130 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 88]
+New parcels: 133 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 133 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size11
+
+Dispatcehd: 133 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 89]
+New parcels: 134 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 134 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 90]
+New parcels: 135 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 135 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 91]
+New parcels: 136 to Izmir (Priority 1), 137 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 136 to Izmir, 137 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size25
+
+Dispatcehd: 110 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 92]
+New parcels: 138 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 138 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size25
+
+Dispatcehd: 135 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 93]
+New parcels: 139 to Bursa (Priority 2), 140 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 139 to Bursa, 140 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size26
+
+Dispatcehd: 138 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 94]
+New parcels: 141 to Istanbul (Priority 2), 142 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 141 to Istanbul, 142 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size25
+
+Dispatcehd: 140 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 95]
+New parcels: 143 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 143 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size25
+
+Returned: 143 misrouted -> Pushed to ReturnStack
+Active Terminal: Antalya
+Stack Size: 1
+
+[Tick 96]
+New parcels: 144 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 144 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size22
+
+Dispatcehd: 108 from AVL to Antalya -> Success
+Sorted again: 143 to Bursa to AVL
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 97]
+New parcels: 145 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 145 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Dispatcehd: 128 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 98]
+New parcels: 146 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 146 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 99]
+New parcels: 147 to Istanbul (Priority 2), 148 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 147 to Istanbul, 148 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 100]
+New parcels: 149 to Bursa (Priority 2), 150 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 149 to Bursa, 150 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 101]
+New parcels: 151 to Antalya (Priority 2), 152 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 151 to Antalya, 152 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 123 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 102]
+New parcels: 153 to Izmir (Priority 1), 154 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 153 to Izmir, 154 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 147 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 103]
+New parcels: 155 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 155 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 104]
+New parcels: 156 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 156 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 105]
+New parcels: 157 to Ankara (Priority 2), 158 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 157 to Ankara, 158 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 106]
+New parcels: 159 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 159 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Dispatcehd: 131 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 107]
+New parcels: 160 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 160 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 157 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 108]
+New parcels: 161 to Bursa (Priority 2), 162 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 161 to Bursa, 162 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 109]
+New parcels: 163 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 163 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 163 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 110]
+New parcels: 164 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 164 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 164 from AVL to Ankara -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 111]
+New parcels: 165 to Ankara (Priority 2), 166 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 165 to Ankara, 166 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size18
+
+Dispatcehd: 136 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 112]
+New parcels: 167 to Antalya (Priority 2), 168 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 167 to Antalya, 168 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size17
+
+Dispatcehd: 159 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 113]
+New parcels: 169 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 169 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 114]
+New parcels: 170 to Antalya (Priority 2), 171 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 170 to Antalya, 171 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 115]
+New parcels: 172 to Bursa (Priority 1), 173 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 172 to Bursa, 173 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 116]
+New parcels: 174 to Antalya (Priority 2), 175 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 174 to Antalya, 175 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Dispatcehd: 144 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 117]
+New parcels: 176 to Ankara (Priority 1), 177 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 176 to Ankara, 177 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Returned: 175 misrouted -> Pushed to ReturnStack
+Sorted again: 175 to Bursa to AVL
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 118]
+New parcels: 178 to Izmir (Priority 2), 179 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 178 to Izmir, 179 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Dispatcehd: 175 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 119]
+New parcels: 180 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 180 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 1
+
+[Tick 120]
+New parcels: 181 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 181 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 121]
+New parcels: 182 to Izmir (Priority 1), 183 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 182 to Izmir, 183 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size28
+
+Dispatcehd: 151 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 122]
+New parcels: 184 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 184 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size27
+
+Dispatcehd: 183 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 123]
+New parcels: 185 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 185 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size27
+
+Dispatcehd: 185 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 124]
+New parcels: 186 to Antalya (Priority 2), 187 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 186 to Antalya, 187 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size28
+
+Dispatcehd: 186 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 125]
+New parcels: 188 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 188 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size27
+
+Dispatcehd: 187 from AVL to Antalya -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 126]
+New parcels: 189 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 189 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 160 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 127]
+New parcels: 190 to Ankara (Priority 1), 191 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 190 to Ankara, 191 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size15
+
+Dispatcehd: 189 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 128]
+New parcels: 192 to Izmir (Priority 1), 193 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 192 to Izmir, 193 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size14
+
+Dispatcehd: 191 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 129]
+New parcels: 194 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 194 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 130]
+New parcels: 195 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 195 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 131]
+New parcels: 196 to Ankara (Priority 2), 197 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 196 to Ankara, 197 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size31
+
+Dispatcehd: 165 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 132]
+New parcels: 198 to Izmir (Priority 2), 199 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 198 to Izmir, 199 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size30
+
+Dispatcehd: 196 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 133]
+New parcels: 200 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 200 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 134]
+New parcels: 201 to Istanbul (Priority 1), 202 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 201 to Istanbul, 202 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 135]
+New parcels: 203 to Ankara (Priority 1), 204 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 203 to Ankara, 204 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size30
+
+Dispatcehd: 203 from AVL to Ankara -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 136]
+New parcels: 205 to Bursa (Priority 1), 206 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 205 to Bursa, 206 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Returned: 178 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 137]
+New parcels: 207 to Antalya (Priority 2), 208 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 207 to Antalya, 208 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 198 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 138]
+New parcels: 209 to Bursa (Priority 2), 210 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 209 to Bursa, 210 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Returned: 210 misrouted -> Pushed to ReturnStack
+Sorted again: 210 to Izmir to AVL
+Sorted again: 178 to Izmir to AVL
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 139]
+New parcels: 211 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 211 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Returned: 210 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 140]
+New parcels: 212 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 212 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size21
+
+Dispatcehd: 178 from AVL to Izmir -> Success
+Active Terminal: Bursa
+Stack Size: 1
+
+[Tick 141]
+New parcels: 213 to Bursa (Priority 1), 214 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 213 to Bursa, 214 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size40
+
+Returned: 184 misrouted -> Pushed to ReturnStack
+Sorted again: 184 to Bursa to AVL
+Sorted again: 210 to Izmir to AVL
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 142]
+New parcels: 215 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 215 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size40
+
+Dispatcehd: 213 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 143]
+New parcels: 216 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 216 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size39
+
+Dispatcehd: 184 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 144]
+New parcels: 217 to Antalya (Priority 2), 218 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 217 to Antalya, 218 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 145]
+New parcels: 219 to Ankara (Priority 1), 220 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 219 to Ankara, 220 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 146]
+New parcels: 221 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 221 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Dispatcehd: 204 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 147]
+New parcels: 222 to Bursa (Priority 2), 223 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 222 to Bursa, 223 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size31
+
+Dispatcehd: 220 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 148]
+New parcels: 224 to Izmir (Priority 2), 225 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 224 to Izmir, 225 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size31
+
+Dispatcehd: 225 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 149]
+New parcels: 226 to Istanbul (Priority 1), 227 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 226 to Istanbul, 227 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 150]
+New parcels: 228 to Ankara (Priority 1), 229 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 228 to Ankara, 229 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 151]
+New parcels: 230 to Izmir (Priority 2), 231 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 230 to Izmir, 231 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size19
+
+Dispatcehd: 201 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 152]
+New parcels: 232 to Istanbul (Priority 2), 233 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 232 to Istanbul, 233 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size20
+
+Dispatcehd: 229 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 153]
+New parcels: 234 to Izmir (Priority 2), 235 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 234 to Izmir, 235 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size19
+
+Dispatcehd: 233 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 154]
+New parcels: 236 to Antalya (Priority 2), 237 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 236 to Antalya, 237 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 155]
+New parcels: 238 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 238 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 156]
+New parcels: 239 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 239 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Returned: 211 misrouted -> Pushed to ReturnStack
+Sorted again: 211 to Ankara to AVL
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 157]
+New parcels: 240 to Bursa (Priority 1), 241 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 240 to Bursa, 241 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Dispatcehd: 228 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 158]
+New parcels: 242 to Izmir (Priority 2), 243 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 242 to Izmir, 243 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Dispatcehd: 211 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 159]
+New parcels: 244 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 244 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 160]
+New parcels: 245 to Antalya (Priority 1), 246 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 245 to Antalya, 246 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Returned: 246 misrouted -> Pushed to ReturnStack
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 161]
+New parcels: 247 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 247 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size29
+
+Dispatcehd: 212 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 162]
+New parcels: 248 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 248 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size28
+
+Dispatcehd: 242 from AVL to Izmir -> Success
+Sorted again: 246 to Ankara to AVL
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 163]
+New parcels: 249 to Istanbul (Priority 1), 250 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 249 to Istanbul, 250 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 164]
+New parcels: 251 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 251 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 165]
+New parcels: 252 to Bursa (Priority 2), 253 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 252 to Bursa, 253 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 166]
+New parcels: 254 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 254 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Dispatcehd: 222 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 167]
+New parcels: 255 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 255 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 252 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 168]
+New parcels: 256 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 256 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 169]
+New parcels: 257 to Antalya (Priority 2), 258 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 257 to Antalya, 258 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 258 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 170]
+New parcels: 259 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 259 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 171]
+New parcels: 260 to Izmir (Priority 1), 261 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 260 to Izmir, 261 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size38
+
+Dispatcehd: 231 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 172]
+New parcels: 262 to Istanbul (Priority 2), 263 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 262 to Istanbul, 263 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size37
+
+Dispatcehd: 259 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 173]
+New parcels: 264 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 264 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 174]
+New parcels: 265 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 265 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 175]
+New parcels: 266 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 266 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 176]
+New parcels: 267 to Bursa (Priority 1), 268 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 267 to Bursa, 268 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size23
+
+Dispatcehd: 239 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 177]
+New parcels: 269 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 269 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size22
+
+Dispatcehd: 262 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 178]
+New parcels: 270 to Antalya (Priority 2), 271 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 270 to Antalya, 271 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 179]
+New parcels: 272 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 272 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size22
+
+Dispatcehd: 272 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 180]
+New parcels: 273 to Antalya (Priority 2), 274 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 273 to Antalya, 274 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 181]
+New parcels: 275 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 275 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size37
+
+Dispatcehd: 246 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 182]
+New parcels: 276 to Izmir (Priority 1), 277 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 276 to Izmir, 277 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size36
+
+Dispatcehd: 271 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 183]
+New parcels: 278 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 278 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 184]
+New parcels: 279 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 279 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 185]
+New parcels: 280 to Istanbul (Priority 1), 281 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 280 to Istanbul, 281 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 186]
+New parcels: 282 to Antalya (Priority 2), 283 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 282 to Antalya, 283 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Dispatcehd: 255 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 187]
+New parcels: 284 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 284 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Dispatcehd: 276 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 188]
+New parcels: 285 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 285 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Dispatcehd: 284 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 189]
+New parcels: 286 to Istanbul (Priority 1), 287 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 286 to Istanbul, 287 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 190]
+New parcels: 288 to Ankara (Priority 1), 289 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 288 to Ankara, 289 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 191]
+New parcels: 290 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 290 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size52
+
+Dispatcehd: 263 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 192]
+New parcels: 291 to Izmir (Priority 1), 292 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 291 to Izmir, 292 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size51
+
+Dispatcehd: 290 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 193]
+New parcels: 293 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 293 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 194]
+New parcels: 294 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 294 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size51
+
+Dispatcehd: 294 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 195]
+New parcels: 295 to Antalya (Priority 2), 296 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 295 to Antalya, 296 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size51
+
+Dispatcehd: 296 from AVL to Bursa -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 196]
+New parcels: 297 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 297 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size42
+
+Dispatcehd: 270 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 197]
+New parcels: 298 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 298 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size41
+
+Dispatcehd: 295 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 198]
+New parcels: 299 to Istanbul (Priority 1), 300 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 299 to Istanbul, 300 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 199]
+New parcels: 301 to Ankara (Priority 1), 302 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 301 to Ankara, 302 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 200]
+New parcels: 303 to Izmir (Priority 2), 304 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 303 to Izmir, 304 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 201]
+New parcels: 305 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 305 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size33
+
+Dispatcehd: 277 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 202]
+New parcels: 306 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 306 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size32
+
+Dispatcehd: 305 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 203]
+New parcels: 307 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 307 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 204]
+New parcels: 308 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 308 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 205]
+New parcels: 309 to Bursa (Priority 1), 310 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 309 to Bursa, 310 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 206]
+New parcels: 311 to Istanbul (Priority 1), 312 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 311 to Istanbul, 312 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size37
+
+Returned: 288 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+Stack Size: 1
+
+[Tick 207]
+New parcels: 313 to Bursa (Priority 1), 314 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 313 to Bursa, 314 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size36
+
+Dispatcehd: 301 from AVL to Ankara -> Success
+Sorted again: 288 to Ankara to AVL
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 208]
+New parcels: 315 to Izmir (Priority 2), 316 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 315 to Izmir, 316 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size36
+
+Returned: 288 misrouted -> Pushed to ReturnStack
+Active Terminal: Ankara
+Stack Size: 1
+
+[Tick 209]
+New parcels: 317 to Istanbul (Priority 1), 318 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 317 to Istanbul, 318 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 1
+
+[Tick 210]
+New parcels: 319 to Bursa (Priority 2), 320 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 319 to Bursa, 320 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Sorted again: 288 to Ankara to AVL
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 211]
+New parcels: 321 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 321 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size37
+
+Dispatcehd: 291 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 212]
+New parcels: 322 to Ankara (Priority 1), 323 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 322 to Ankara, 323 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size36
+
+Dispatcehd: 316 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 213]
+New parcels: 324 to Antalya (Priority 2), 325 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 324 to Antalya, 325 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 214]
+New parcels: 326 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 326 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 215]
+New parcels: 327 to Antalya (Priority 1), 328 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 327 to Antalya, 328 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 216]
+New parcels: 329 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 329 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size58
+
+Dispatcehd: 297 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 217]
+New parcels: 330 to Bursa (Priority 2), 331 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 330 to Bursa, 331 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size58
+
+Dispatcehd: 323 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 218]
+New parcels: 332 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 332 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size57
+
+Dispatcehd: 330 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 219]
+New parcels: 333 to Izmir (Priority 2), 334 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 333 to Izmir, 334 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 220]
+New parcels: 335 to Istanbul (Priority 2), 336 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 335 to Istanbul, 336 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 221]
+New parcels: 337 to Izmir (Priority 1), 338 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 337 to Izmir, 338 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size50
+
+Dispatcehd: 307 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 222]
+New parcels: 339 to Ankara (Priority 2), 340 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 339 to Ankara, 340 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size49
+
+Dispatcehd: 336 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 223]
+New parcels: 341 to Istanbul (Priority 2), 342 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 341 to Istanbul, 342 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 224]
+New parcels: 343 to Antalya (Priority 1), 344 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 343 to Antalya, 344 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size49
+
+Dispatcehd: 343 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 225]
+New parcels: 345 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 345 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 226]
+New parcels: 346 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 346 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size39
+
+Dispatcehd: 311 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 227]
+New parcels: 347 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 347 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size38
+
+Dispatcehd: 342 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 228]
+New parcels: 348 to Bursa (Priority 1), 349 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 348 to Bursa, 349 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 229]
+New parcels: 350 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 350 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size38
+
+Dispatcehd: 350 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 230]
+New parcels: 351 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 351 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size38
+
+Dispatcehd: 351 from AVL to Istanbul -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 231]
+New parcels: 352 to Bursa (Priority 1), 353 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 352 to Bursa, 353 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size41
+
+Dispatcehd: 288 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 232]
+New parcels: 354 to Ankara (Priority 2), 355 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 354 to Ankara, 355 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size41
+
+Dispatcehd: 339 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 233]
+New parcels: 356 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 356 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size40
+
+Dispatcehd: 354 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 234]
+New parcels: 357 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 357 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 235]
+New parcels: 358 to Antalya (Priority 2), 359 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 358 to Antalya, 359 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 236]
+New parcels: 360 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 360 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size42
+
+Dispatcehd: 329 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 237]
+New parcels: 361 to Istanbul (Priority 2), 362 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 361 to Istanbul, 362 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size41
+
+Dispatcehd: 357 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 238]
+New parcels: 363 to Ankara (Priority 2), 364 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 363 to Ankara, 364 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 239]
+New parcels: 365 to Ankara (Priority 1), 366 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 365 to Ankara, 366 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 240]
+New parcels: 367 to Istanbul (Priority 2), 368 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 367 to Istanbul, 368 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 241]
+New parcels: 369 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 369 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size63
+
+Dispatcehd: 346 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 242]
+New parcels: 370 to Bursa (Priority 1), 371 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 370 to Bursa, 371 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size63
+
+Dispatcehd: 369 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 243]
+New parcels: 372 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 372 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size63
+
+Dispatcehd: 370 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 244]
+New parcels: 373 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 373 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size62
+
+Returned: 372 misrouted -> Pushed to ReturnStack
+Active Terminal: Bursa
+Stack Size: 1
+
+[Tick 245]
+New parcels: 374 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 374 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 1
+
+[Tick 246]
+New parcels: 375 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 375 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size53
+
+Dispatcehd: 347 from AVL to Antalya -> Success
+Sorted again: 372 to Bursa to AVL
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 247]
+New parcels: 376 to Antalya (Priority 2), 377 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 376 to Antalya, 377 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size53
+
+Dispatcehd: 358 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 248]
+New parcels: 378 to Bursa (Priority 1), 379 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 378 to Bursa, 379 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size52
+
+Dispatcehd: 376 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 249]
+New parcels: 380 to Izmir (Priority 1), 381 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 380 to Izmir, 381 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 250]
+New parcels: 382 to Istanbul (Priority 2), 383 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 382 to Istanbul, 383 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 251]
+New parcels: 384 to Ankara (Priority 1), 385 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 384 to Ankara, 385 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size44
+
+Dispatcehd: 359 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 252]
+New parcels: 386 to Bursa (Priority 2), 387 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 386 to Bursa, 387 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size43
+
+Dispatcehd: 382 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 253]
+New parcels: 388 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 388 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 254]
+New parcels: 389 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 389 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size43
+
+Dispatcehd: 389 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 255]
+New parcels: 390 to Izmir (Priority 2), 391 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 390 to Izmir, 391 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size43
+
+Dispatcehd: 391 from AVL to Istanbul -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 256]
+New parcels: 392 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 392 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Dispatcehd: 362 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 257]
+New parcels: 393 to Istanbul (Priority 1), 394 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 393 to Istanbul, 394 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 384 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 258]
+New parcels: 395 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 395 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 259]
+New parcels: 396 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 396 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 260]
+New parcels: 397 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 397 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 261]
+New parcels: 398 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 398 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Returned: 374 misrouted -> Pushed to ReturnStack
+Sorted again: 374 to Izmir to AVL
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 262]
+New parcels: 399 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 399 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Dispatcehd: 396 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 263]
+New parcels: 400 to Istanbul (Priority 1), 401 to Izmir (Priority 1), Queue size: 30
+Sorted to AVL: 400 to Istanbul, 401 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Dispatcehd: 374 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 264]
+New parcels: 402 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 402 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 401 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 265]
+New parcels: 403 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 403 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 266]
+New parcels: 404 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 404 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size71
+
+Dispatcehd: 372 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 267]
+New parcels: 405 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 405 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size71
+
+Dispatcehd: 403 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 268]
+New parcels: 406 to Izmir (Priority 2), Queue size: 30
+Sorted to AVL: 406 to Izmir, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size70
+
+Dispatcehd: 405 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 269]
+New parcels: 407 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 407 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 270]
+New parcels: 408 to Antalya (Priority 2), 409 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 408 to Antalya, 409 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 271]
+New parcels: 410 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 410 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size58
+
+Dispatcehd: 388 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 272]
+New parcels: 411 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 411 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size57
+
+Dispatcehd: 410 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 273]
+New parcels: 412 to Ankara (Priority 1), 413 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 412 to Ankara, 413 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 274]
+New parcels: 414 to Antalya (Priority 2), 415 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 414 to Antalya, 415 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size57
+
+Dispatcehd: 414 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 275]
+New parcels: 416 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 416 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 276]
+New parcels: 417 to Istanbul (Priority 1), 418 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 417 to Istanbul, 418 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size50
+
+Returned: 392 misrouted -> Pushed to ReturnStack
+Sorted again: 392 to Istanbul to AVL
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 277]
+New parcels: 419 to Istanbul (Priority 2), 420 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 419 to Istanbul, 420 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size52
+
+Dispatcehd: 417 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 278]
+New parcels: 421 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 421 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size51
+
+Dispatcehd: 420 from AVL to Istanbul -> Success
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 279]
+New parcels: 422 to Bursa (Priority 1), 423 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 422 to Bursa, 423 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+[Tick 280]
+New parcels: 424 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 424 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 281]
+New parcels: 425 to Antalya (Priority 1), 426 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 425 to Antalya, 426 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size48
+
+Dispatcehd: 412 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 282]
+New parcels: 427 to Antalya (Priority 1), Queue size: 30
+Sorted to AVL: 427 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size47
+
+Dispatcehd: 426 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 283]
+New parcels: 428 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 428 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size47
+
+Dispatcehd: 428 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 284]
+New parcels: 429 to Ankara (Priority 1), 430 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 429 to Ankara, 430 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size47
+
+Dispatcehd: 429 from AVL to Ankara -> Success
+Active Terminal: Ankara
+Stack Size: 0
+
+[Tick 285]
+New parcels: 431 to Bursa (Priority 1), 432 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 431 to Bursa, 432 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 286]
+New parcels: 433 to Izmir (Priority 1), 434 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 433 to Izmir, 434 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size46
+
+Dispatcehd: 406 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 287]
+New parcels: 435 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 435 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 433 from AVL to Izmir -> Success
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 288]
+New parcels: 436 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 436 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 0
+
+[Tick 289]
+New parcels: 437 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 437 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Izmir
+Stack Size: 1
+
+[Tick 290]
+New parcels: 438 to Izmir (Priority 1), 439 to Antalya (Priority 2), Queue size: 30
+Sorted to AVL: 438 to Izmir, 439 to Antalya, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size45
+
+Dispatcehd: 438 from AVL to Izmir -> Success
+Active Terminal: Bursa
+Stack Size: 1
+
+[Tick 291]
+New parcels: 440 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 440 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size76
+
+Dispatcehd: 411 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 292]
+New parcels: 441 to Ankara (Priority 2), Queue size: 30
+Sorted to AVL: 441 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size75
+
+Dispatcehd: 440 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 293]
+New parcels: 442 to Bursa (Priority 1), 443 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 442 to Bursa, 443 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size75
+
+Dispatcehd: 442 from AVL to Bursa -> Success
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 294]
+New parcels: 444 to Istanbul (Priority 2), 445 to Istanbul (Priority 2), Queue size: 30
+Sorted to AVL: 444 to Istanbul, 445 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Bursa
+Stack Size: 0
+
+[Tick 295]
+New parcels: 446 to Istanbul (Priority 1), Queue size: 30
+Sorted to AVL: 446 to Istanbul, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 296]
+New parcels: 447 to Ankara (Priority 2), 448 to Bursa (Priority 2), Queue size: 30
+Sorted to AVL: 447 to Ankara, 448 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size62
+
+Dispatcehd: 418 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 297]
+New parcels: 449 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 449 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, size61
+
+Dispatcehd: 439 from AVL to Antalya -> Success
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 298]
+New parcels: 450 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 450 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 299]
+New parcels: 451 to Istanbul (Priority 2), 452 to Ankara (Priority 1), Queue size: 30
+Sorted to AVL: 451 to Istanbul, 452 to Ankara, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Antalya
+Stack Size: 0
+
+[Tick 300]
+New parcels: 453 to Bursa (Priority 1), Queue size: 30
+Sorted to AVL: 453 to Bursa, 
+Visit all cities in sorted order alphabetically.Ankara, Antalya, Bursa, Istanbul, Izmir, 
+Active Terminal: Istanbul
+Stack Size: 0
+
+--- Simulation Overview ---
+Total ticks executed: 300
+Total Generated Parcels: 759
+
+--- Parcel Statistics ---
+Total Dispatched Parcels: 159
+Total Returned Parcels: 17
+The current parcels in stack: 0
+Queue is empty.
+The current parcels in queue: null
+
+--- Destination Metrics ---
+Totla parcels distribution: 
+Istanbul: 93
+Ankara: 87
+Izmir: 77
+Bursa: 116
+Antalya: 97
+The total parcels in AVL in all time: 470
+
+Most Frequently Targeted Destination Bursa with 116 parcels
+
+├── Bursa
+│   ├── Antalya
+│   │   ├── Ankara
+│   └── Izmir
+│       ├── Istanbul
+Current parcels in avl now: 
+Istanbul: 59
+Ankara: 52
+Izmir: 45
+Bursa: 77
+Antalya: 61
+The total current parcels in AVL now: 294
+
+--- Timing and Delay Metrics ---
+The parcel returned more than one ParcelId:  210, 
+The parcel returned more than one ParcelId:  288, 
+Average Parcel Processing Time: 4.0
+Parcel With Longest Delay ParcelId: 440 with 1
+
+--- Data Structure Statistics ---
+Maximum Queue Size Observed: 30
+Maximum Stack Size Observed: 2
+Final Height of AVL: 2
+Hash Table Load Factor: 45
+Array[0] ----> 450 Ankara-->440 Bursa-->430 Bursa-->420 Istanbul-->410 Antalya-->400 Istanbul-->390 Izmir-->380 Izmir-->370 Bursa-->360 Istanbul-->350 Istanbul-->340 Istanbul-->330 Bursa-->320 Antalya-->310 Izmir-->300 Bursa-->290 Bursa-->280 Istanbul-->270 Antalya-->260 Izmir-->250 Istanbul-->240 Bursa-->230 Izmir-->220 Antalya-->210 Izmir-->200 Bursa-->190 Ankara-->180 Ankara-->170 Antalya-->160 Istanbul-->150 Ankara-->140 Bursa-->130 Izmir-->120 Istanbul-->110 Bursa-->100 Antalya-->90 Bursa-->80 Istanbul-->70 Istanbul-->60 Bursa-->50 Izmir-->40 Izmir-->30 Istanbul-->20 Istanbul-->10 Antalya-->
+Array[1] ----> 451 Istanbul-->441 Ankara-->431 Bursa-->421 Bursa-->411 Bursa-->401 Izmir-->391 Istanbul-->381 Bursa-->371 Ankara-->361 Istanbul-->351 Istanbul-->341 Istanbul-->331 Ankara-->321 Antalya-->311 Istanbul-->301 Ankara-->291 Izmir-->281 Istanbul-->271 Ankara-->261 Ankara-->251 Bursa-->241 Istanbul-->231 Antalya-->221 Ankara-->211 Ankara-->201 Istanbul-->191 Istanbul-->181 Ankara-->171 Ankara-->161 Bursa-->151 Antalya-->141 Istanbul-->131 Ankara-->121 Bursa-->111 Ankara-->101 Antalya-->91 Bursa-->81 Izmir-->71 Antalya-->61 Bursa-->51 Bursa-->41 Bursa-->31 Ankara-->21 Antalya-->11 Ankara-->1 Antalya-->
+Array[2] ----> 452 Ankara-->442 Bursa-->432 Istanbul-->422 Bursa-->412 Ankara-->402 Istanbul-->392 Istanbul-->382 Istanbul-->372 Bursa-->362 Ankara-->352 Bursa-->342 Istanbul-->332 Istanbul-->322 Ankara-->312 Antalya-->302 Istanbul-->292 Antalya-->282 Antalya-->272 Istanbul-->262 Istanbul-->252 Bursa-->242 Izmir-->232 Istanbul-->222 Bursa-->212 Izmir-->202 Istanbul-->192 Izmir-->182 Izmir-->172 Bursa-->162 Antalya-->152 Bursa-->142 Ankara-->132 Istanbul-->122 Antalya-->112 Antalya-->102 Izmir-->92 Antalya-->82 Bursa-->72 Istanbul-->62 Ankara-->52 Bursa-->42 Ankara-->32 Bursa-->22 Bursa-->12 Istanbul-->2 Bursa-->
+Array[3] ----> 453 Bursa-->443 Istanbul-->433 Izmir-->423 Antalya-->413 Istanbul-->403 Bursa-->393 Istanbul-->383 Bursa-->373 Istanbul-->363 Ankara-->353 Bursa-->343 Antalya-->333 Izmir-->323 Bursa-->313 Bursa-->303 Izmir-->293 Istanbul-->283 Bursa-->273 Antalya-->263 Bursa-->253 Ankara-->243 Bursa-->233 Istanbul-->223 Izmir-->213 Bursa-->203 Ankara-->193 Ankara-->183 Antalya-->173 Ankara-->163 Ankara-->153 Izmir-->143 Bursa-->133 Izmir-->123 Istanbul-->113 Antalya-->103 Istanbul-->93 Istanbul-->83 Istanbul-->73 Ankara-->63 Ankara-->53 Bursa-->43 Antalya-->33 Ankara-->23 Ankara-->13 Izmir-->3 Izmir-->
+Array[4] ----> 444 Istanbul-->434 Antalya-->424 Ankara-->414 Antalya-->404 Antalya-->394 Antalya-->384 Ankara-->374 Izmir-->364 Ankara-->354 Ankara-->344 Izmir-->334 Ankara-->324 Antalya-->314 Bursa-->304 Izmir-->294 Bursa-->284 Izmir-->274 Bursa-->264 Izmir-->254 Antalya-->244 Bursa-->234 Izmir-->224 Izmir-->214 Istanbul-->204 Antalya-->194 Ankara-->184 Bursa-->174 Antalya-->164 Ankara-->154 Izmir-->144 Bursa-->134 Istanbul-->124 Istanbul-->114 Antalya-->104 Istanbul-->94 Istanbul-->84 Izmir-->74 Ankara-->64 Antalya-->54 Bursa-->44 Antalya-->34 Ankara-->24 Antalya-->14 Bursa-->4 Istanbul-->
+Array[5] ----> 445 Istanbul-->435 Bursa-->425 Antalya-->415 Istanbul-->405 Bursa-->395 Istanbul-->385 Izmir-->375 Ankara-->365 Ankara-->355 Antalya-->345 Izmir-->335 Istanbul-->325 Ankara-->315 Izmir-->305 Istanbul-->295 Antalya-->285 Antalya-->275 Izmir-->265 Ankara-->255 Izmir-->245 Antalya-->235 Izmir-->225 Antalya-->215 Antalya-->205 Bursa-->195 Bursa-->185 Antalya-->175 Bursa-->165 Ankara-->155 Izmir-->145 Bursa-->135 Bursa-->125 Istanbul-->115 Bursa-->105 Ankara-->95 Antalya-->85 Ankara-->75 Bursa-->65 Ankara-->55 Istanbul-->45 Ankara-->35 Ankara-->25 Ankara-->15 Bursa-->5 Bursa-->
+Array[6] ----> 446 Istanbul-->436 Istanbul-->426 Ankara-->416 Ankara-->406 Izmir-->396 Izmir-->386 Bursa-->376 Antalya-->366 Bursa-->356 Antalya-->346 Bursa-->336 Antalya-->326 Antalya-->316 Izmir-->306 Bursa-->296 Bursa-->286 Istanbul-->276 Izmir-->266 Bursa-->256 Ankara-->246 Ankara-->236 Antalya-->226 Istanbul-->216 Istanbul-->206 Bursa-->196 Ankara-->186 Antalya-->176 Ankara-->166 Ankara-->156 Izmir-->146 Ankara-->136 Izmir-->126 Antalya-->116 Ankara-->106 Antalya-->96 Bursa-->86 Bursa-->76 Izmir-->66 Ankara-->56 Bursa-->46 Izmir-->36 Ankara-->26 Ankara-->16 Izmir-->6 Bursa-->
+Array[7] ----> 447 Ankara-->437 Istanbul-->427 Antalya-->417 Istanbul-->407 Antalya-->397 Bursa-->387 Izmir-->377 Bursa-->367 Istanbul-->357 Izmir-->347 Antalya-->337 Izmir-->327 Antalya-->317 Istanbul-->307 Antalya-->297 Bursa-->287 Bursa-->277 Istanbul-->267 Bursa-->257 Antalya-->247 Antalya-->237 Antalya-->227 Izmir-->217 Antalya-->207 Antalya-->197 Bursa-->187 Antalya-->177 Ankara-->167 Antalya-->157 Ankara-->147 Istanbul-->137 Izmir-->127 Antalya-->117 Antalya-->107 Ankara-->97 Antalya-->87 Ankara-->77 Istanbul-->67 Izmir-->57 Antalya-->47 Izmir-->37 Bursa-->27 Antalya-->17 Ankara-->7 Ankara-->
+Array[8] ----> 448 Bursa-->438 Izmir-->428 Ankara-->418 Antalya-->408 Antalya-->398 Bursa-->388 Antalya-->378 Bursa-->368 Bursa-->358 Antalya-->348 Bursa-->338 Izmir-->328 Antalya-->318 Istanbul-->308 Antalya-->298 Istanbul-->288 Ankara-->278 Istanbul-->268 Bursa-->258 Bursa-->248 Bursa-->238 Bursa-->228 Ankara-->218 Izmir-->208 Antalya-->198 Izmir-->188 Izmir-->178 Izmir-->168 Antalya-->158 Izmir-->148 Ankara-->138 Bursa-->128 Antalya-->118 Antalya-->108 Antalya-->98 Bursa-->88 Izmir-->78 Bursa-->68 Antalya-->58 Bursa-->48 Istanbul-->38 Bursa-->28 Istanbul-->18 Istanbul-->8 Izmir-->
+Array[9] ----> 449 Ankara-->439 Antalya-->429 Ankara-->419 Istanbul-->409 Antalya-->399 Bursa-->389 Istanbul-->379 Istanbul-->369 Bursa-->359 Istanbul-->349 Antalya-->339 Ankara-->329 Izmir-->319 Bursa-->309 Bursa-->299 Istanbul-->289 Istanbul-->279 Istanbul-->269 Izmir-->259 Antalya-->249 Istanbul-->239 Istanbul-->229 Istanbul-->219 Ankara-->209 Bursa-->199 Bursa-->189 Istanbul-->179 Antalya-->169 Bursa-->159 Izmir-->149 Bursa-->139 Bursa-->129 Bursa-->119 Bursa-->109 Izmir-->99 Antalya-->89 Bursa-->79 Antalya-->69 Istanbul-->59 Izmir-->49 Izmir-->39 Izmir-->29 Antalya-->19 Bursa-->9 Antalya-->
+Queue is empty.
+Report written to: C:\Users\LENOVO\fabric\report.txt
+Simulation report successfully written to report.txt
